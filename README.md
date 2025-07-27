@@ -3,7 +3,12 @@ project uses dueling double dqn + personalized replay buffer to help the agent l
 
 files contained: agent.py, dino3.py, DuelingDqn, dino_ddqn.path(contains weights for the nerual network), replay_buffer/prioritised replay buffer, and train.py.
 
+without UI:
 ![Screenshot from 2025-06-28 02-06-46](https://github.com/user-attachments/assets/99203f5a-c4a4-4354-a349-8b974e78c3d2)
+
+with UI(not available in this repo):
+<img width="697" height="190" alt="image" src="https://github.com/user-attachments/assets/1fc6353c-f0da-4650-983e-27de2cca1ccb" />
+
 
 Dueling Double DQN for Chrome Dino Game
 This project implements an advanced deep reinforcement learning agent that learns to play the Chrome Dino Run game. It uses a Dueling Double Deep Q-Network (Dueling Double DQN) architecture combined with a Prioritized Experience Replay buffer to achieve efficient and robust learning.
